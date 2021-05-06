@@ -1,23 +1,311 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Samama Khan - Resume</title>
+		<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+		<!-- Font Awesome icons-->
+		<script
+			src="https://kit.fontawesome.com/33ffa515a3.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- Google fonts-->
+		<link
+			href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<!-- Core theme CSS-->
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+	<body id="page-top">
+		<!-- Navigation-->
+		<nav
+			class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+			id="sideNav"
+		>
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+				<span class="d-block d-lg-none">Samama Khan</span>
+				<span class="d-none d-lg-block"
+					><img
+						class="img-fluid img-profile rounded-circle mx-auto mb-2"
+						src="assets/img/profile.jpg"
+						alt="..."
+				/></span>
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#certificates">Certificates</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#education">Education</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Page Content-->
+		<div class="container-fluid p-0">
+			<!-- About-->
+			<section class="resume-section" id="about">
+				<div class="resume-section-content">
+					<h1 class="mb-0">
+						Samama
+						<span class="text-primary">Khan</span>
+					</h1>
+					<div class="subheading mb-5">
+						Peshawar, Pakistan ·
+						<a href="mailto:k67sam@gmail.com">k67sam@gmail.com</a>
+					</div>
+					<p class="lead mb-5">an aspiring front end developer</p>
+					<div class="social-icons">
+						<a class="social-icon" href="https://www.github.com/sam67k"
+							><i class="fab fa-github"></i
+						></a>
+						<a class="social-icon" href="https://codepen.io/sam67k"
+							><i class="fab fa-codepen"></i
+						></a>
+						<a class="social-icon" href="https://www.linkedin.com/in/samamakhan/"
+							><i class="fab fa-linkedin-in"></i
+						></a>
+						<a class="social-icon" href="https://www.twitter.com/isam67k"
+							><i class="fab fa-twitter"></i
+						></a>
+						<a class="social-icon" href="https://www.behance.net/samamakhan"
+							><i class="fab fa-behance"></i
+						></a>
+						<a class="social-icon" href="https://www.slideshare.net/SamamaKhan1/"
+							><i class="fab fa-slideshare"></i
+						></a>
+						<a class="social-icon" href="https://www.pinterest.com/sam67k/"
+							><i class="fab fa-pinterest"></i
+						></a>
+						<a class="social-icon" href="https://www.producthunt.com/@samamakhan"
+							><i class="fab fa-product-hunt"></i
+						></a>
+						<!-- //TODO 
+                            add more
+                        -->
+					</div>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Skills-->
+			<section class="resume-section" id="skills">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Skills</h2>
+					<div class="subheading mb-3">Programming Languages & Tools</div>
+					<li class="list-inline dev-icons">
+						<li class="list-inline-item"><i class="fab fa-html5 fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-css3-alt fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-js-square fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-vuejs fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-git-alt fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-github fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-python fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-java fa-3x"></i></li>
+						<li class="list-inline-item"><i class="fab fa-linux fa-3x"></i></li>
+					</ul>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Certificates-->
+			<section class="resume-section" id="certificates">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Certifications</h2>
+					<ul class="fa-ul mb-0">
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Google IT Support Professional - Coursera
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Google IT Automation with Python Specialization - Coursera
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Web Design for Everybody: Basics of Web Development & Coding - Coursera
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Graphic Design Specialization - Coursera
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Qwiklabs (21 Quests Completed)
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							AWS Concepts - Linux Academy
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Cloud Computing for Everyone - DataCamp
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Google Cloud Product Fundamentals - Coursera
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							AI for Everyone - Coursera
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Intro to Cyber Security - Cisco Networking Academy
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Cyber Security Essentials - Cisco Networking Academy
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Essentials of Cyber Security & Vulnerability Assessment - KPCERC
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Introduction to Packet Tracer - Cisco Networking Academy
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Introduction to Networks - Cisco Networking Academy
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Enterprise Networking, Security, and Automation - Cisco Networking Academy
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Switching, Routing, and Wireless Essentials - Cisco Networking Academy
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Introduction to Flutter Development Using Dart - The App Brewery
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Flutter Toolkit with Dart - Project Based - UNDP Pakistan
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							UI/UX and Design - UNDP Pakistan
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							Social Media Marketing - UNDP Pakistan
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+							The Fundamentals of Digital Marketing - Google
+						</li>
+					</ul>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Projects-->
+			<section class="resume-section" id="projects">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Projects</h2>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Stock Trader</h3>
+							<div class="subheading mb-3">VueJs - <a href="https://vuejs-stock-trader-67.surge.sh/">Live Preview</a></div>
+						</div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Expense Tracker</h3>
+							<div class="subheading mb-3">VueJs - <a href="https://expense-tracker-vue-67.surge.sh/">Live Preview</a></div>
+						</div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Guess Number</h3>
+							<div class="subheading mb-3">Javascript - <a href="https://codepen.io/sam67k/full/OJpLjgo">Live Preview</a></div>
+						</div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Budgety</h3>
+							<div class="subheading mb-3">Javascript - <a href="https://codepen.io/sam67k/full/oNZveXY">Live Preview</a></div>
+						</div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Dice Game</h3>
+							<div class="subheading mb-3">Javascript - <a href="https://codepen.io/sam67k/full/GRWKvqQ">Live Preview</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Education-->
+			<section class="resume-section" id="education">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Education</h2>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Institute of Management Sciences (IMSciences), Peshawar</h3>
+							<div class="subheading mb-3">Bachelor of Software Engineering</div>
+							<div>Major Courses</div>
+							<li>Programming Fundamentals - Python</li>
+							<li>Object Oriented Programming - Java</li>
+							<li>Data Structures and Algorithm - Java</li>
+							<li>Software Engineering</li>
+							<li>Object Oriented Software Engineering</li>
+							<li>Software Requirements and Specifications</li>
+							<li>Operating System</li>
+							<li>Natural Language Processing</li>
+							<li>Introduction to DBMS - Oracle, MySQL</li>
+							<li>Data Communication & Computer Networks</li>
+							<li>Data Mining</li>
+							<li>Real-time Systems</li>
+							<p>CGPA: 3.4</p>
+						</div>
+						<div class="flex-shrink-0">
+							<span class="text-primary">September 2018 - Present</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Bootstrap core JS-->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Third party plugin JS-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+		<!-- Core theme JS-->
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
