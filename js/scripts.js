@@ -51,6 +51,12 @@ sr.reveal('.skills__title', {});
 sr.reveal('.skills__text', { delay: 200 });
 sr.reveal('.list-inline-item', { delay: 400, interval: 100 });
 
+/*Scroll Experience*/
+sr.reveal('.experience__title', {});
+sr.reveal('.experience__place', { delay: 200, interval: 400 });
+sr.reveal('.experience__position', { delay: 400, interval: 400 });
+sr.reveal('.experience__span', { delay: 600, interval: 400 });
+
 /*SCROLL Certificates*/
 sr.reveal('.certifications__title', {});
 sr.reveal('.certifications__list>li', { delay: 400, interval: 300 });
